@@ -1,0 +1,25 @@
+{
+	"name": "gracenode-request",
+	"description": "request module for gracenode framework",
+	"version": "0.1.0",
+	"author": "Nobuyori Takahashi <voltrue2@yahoo.com>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/voltrue2/gracenode-request.git"
+	},
+	"dependencies": {
+		"request": "2.33.0"
+	},
+	"devDependencies": {
+		"mocha": "1.18.2"
+	},
+	"engine": "node >= 0.10.20",
+	"contributors": [],
+	"keywords": [
+		"gracenode",
+		"framework",
+		"request",
+		"modules"
+	],
+	"license": "MIT"
+}
