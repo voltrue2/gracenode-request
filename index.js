@@ -63,7 +63,7 @@ function send(url, method, args, options, cb) {
 		}
 		zlib.gunzip(body, function (err, unzipped) {
 			if (err) {
-				return cb(err);
+				return cb(err, body, res.statusCode);
 			}
 			unzipped = unzipped.toString();
 			try {
